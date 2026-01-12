@@ -9,7 +9,7 @@ chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
     return true;
   }
 
-  const apiKey = "AIzaSyCAHmsFG2kTbOrls3_ycRw7oVUZl9BBNi8";
+  const apiKey = "YOUR_GEMINI_API_KEY";
   const url =
     `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
